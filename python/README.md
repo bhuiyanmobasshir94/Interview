@@ -137,6 +137,19 @@ def find_index(to_search, keyword):
 print(find_index(courses, "Deep Learning"))
 print(find_index(courses, "Natural Language Processing"))
 
-## Problemset 6 ends
+## Problemset 6 end
+
+## Problemset 7
+
+def add_employee(emp, emp_list = []):
+    emp_list.append(emp)
+    print(emp_list)
+    
+add_employee('Jane')
+add_employee('Corey')
+
+## Problemset 7 end
+
+
 
 ```
