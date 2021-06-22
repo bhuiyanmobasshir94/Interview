@@ -124,4 +124,19 @@ list(filter(is_odd, numbers))
 
 ## Problemset 5 end
 
+## Problemset 6
+
+courses = ["Data Science", "Machine Learning", "Deep Learning", "Computer Vision"]
+
+def find_index(to_search, keyword):
+  for index, value in enumerate(to_search):
+    if keyword == value:
+      return index
+  return -1
+
+print(find_index(courses, "Deep Learning"))
+print(find_index(courses, "Natural Language Processing"))
+
+## Problemset 6 ends
+
 ```
