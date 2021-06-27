@@ -150,6 +150,35 @@ add_employee('Corey')
 
 ## Problemset 7 end
 
+## Problemset 8
 
+GROUPS = {
+    1: {"name": "Super Admin"},
+    2: {"name": "Admin"},
+    3: {"name": "Archivist"},
+    4: {"name": "Reviewer"},
+    5: {"name": "Authorizer"},
+}
 
+ACCESS_PERMISSION_BY_MODULE = {
+    "GROUP": {"read": [GROUPS[2]], "read_write": [GROUPS[1]],},
+    "USER": {"read": [GROUPS[2]], "read_write": [GROUPS[1]],},
+    "DASHBOARD": {"read": [GROUPS[1], GROUPS[2]], "read_write": [],},
+    "ARCHIVE": {
+        "read": [],
+        "read_write": [GROUPS[1], GROUPS[2], GROUPS[3], GROUPS[4], GROUPS[5]],
+    },
+}
+
+## Output
+[{'name': 'Admin'}, {'name': 'Super Admin'}]
+
+## Solution
+groups = [
+    value
+    for value_list in ACCESS_PERMISSION_BY_MODULE["GROUP"].values()
+    for value in value_list
+]
+
+## Problemset 8 end
 ```
