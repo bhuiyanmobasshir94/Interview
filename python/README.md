@@ -181,4 +181,19 @@ groups = [
 ]
 
 ## Problemset 8 end
+
+## Problemset 9 
+
+i = 0
+while True:
+    if i == 5:
+        continue
+    if i == 10: 
+        break
+    print(i)
+    i += 1
+
+why this runs infinitely
+
+## Problemset 9
 ```
