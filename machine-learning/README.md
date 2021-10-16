@@ -7,3 +7,5 @@
 
 ## New
 1. [ML Engineer](https://mlengineer.io/)
+2. [data-science-question-answer](https://github.com/ShuaiW/data-science-question-answer)
+3. [51 Essential Machine Learning Interview Questions and Answers](https://www.springboard.com/blog/ai-machine-learning/machine-learning-interview-questions/)
