@@ -9,3 +9,4 @@
 3. [SQL Udacity](https://www.udacity.com/blog/2021/05/sql-structured-query-language-hub.html)
 4. [The Data Engineering Interview Study Guide***](https://betterprogramming.pub/the-data-engineering-interview-study-guide-6f09420dd972)
 5. [The Ultimate Guide to Data Engineer Interviews](https://www.kdnuggets.com/2020/12/ultimate-guide-data-engineer-interviews.html)
+6. [Crack SQL Interviews](https://towardsdatascience.com/crack-sql-interviews-6a5fc90ec763)
