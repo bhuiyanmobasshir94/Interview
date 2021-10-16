@@ -4,3 +4,6 @@
 3. [System Design Primer by Donne Martin](https://github.com/donnemartin/system-design-primer)
 4. [Techdummies Youtube videos](https://www.youtube.com/c/TechDummiesNarendraL)
 5. [Facebook Field Guide to Machine Learning video series](https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/)
+
+## New
+1. [ML Engineer](https://mlengineer.io/)
