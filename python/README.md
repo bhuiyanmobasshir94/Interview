@@ -195,5 +195,20 @@ while True:
 
 why this runs infinitely
 
-## Problemset 9
+## Problemset 9 end
+
+## Probleset 10
+
+Input: nums = [1,2,3,1]
+Output: true
+
+def containsDuplicate(nums: List[int]) -> bool:
+    from collections import Counter
+    for item, count in Counter(nums).items():
+        if count > 1:
+            return True
+    return False
+    
+## Probleset 10 end
 ```
+
