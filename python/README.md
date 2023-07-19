@@ -1,3 +1,5 @@
+1. [41 Python Interview Questions [+ Answer Guide]](https://www.springboard.com/blog/data-science/python-interview-questions/)
+
 ```
 ## Problemset 1
 
